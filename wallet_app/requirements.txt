@@ -1,0 +1,11 @@
+tensorflow-intel==2.17.0
+tensorboard==2.17.1
+google-cloud-vision==3.9.0
+google-api-core==2.24.0
+proto-plus==1.25.0
+grpcio-status==1.68.1
+protobuf>=3.20.3,<5.0.0  # Compatible version for all dependencies
+gunicorn==21.2.0  # For production WSGI server
+Django==4.2  # Update this to match your Django version
+psycopg2==2.9.9  # PostgreSQL adapter
+whitenoise==6.6.0  # For serving static files in Django
